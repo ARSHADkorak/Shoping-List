@@ -1,38 +1,85 @@
-# gdsc-dom-demo
+# Shopping List App
+## 📄 Description
+This is a basic HTML and JavaScript project demonstrating the DOM (Document Object Model) in action, built as part of GDSC's 2-day JavaScript workshop.
 
-## Description
-A basic html-js website to demonstrate the power of DOM(DOcument Object Model), built as part of GDSC's 2 day Javascript workshop.
+It features a simple shopping list with dynamic interactivity such as adding, hiding, and removing items, along with a real-time digital clock.
 
-## Installation
+## 🧰 Technologies Used
+HTML5
 
-1. Clone the repository:
+CSS3
 
-    ```bash
-    git clone https://github.com/sikehish/gdsc-dom-demo.git
-    ```
+JavaScript (ES6)
 
-2. Navigate into the project directory:
+DOM Manipulation
 
-    ```bash
-    cd gdsc-dom-demo
-    ```
+Event Handling
 
-3. Open the project in a Live Server:
+## 🖥️ Features
 
-   You can use a development server like Live Server in Visual Studio Code or any other development environment that supports live server functionality.
-   Alternatively, if you have Python installed, you can use Python's built-in HTTP server:
+✅ Add new items to the shopping list
 
-    ```bash
-    python -m http.server
-    ```
+🧹 Click on list items to remove them
 
-   Or if you have Node.js installed, you can use the `http-server` package:
+👀 Hide/show the list with a delay
 
-    ```bash
-    npm install -g http-server
-    http-server
-    ```
+⏰ Real-time digital clock displayed at the top
 
-   This will start a development server hosting your project. You can then access it in your web browser at `http://localhost:8000` or a similar address provided by the server.
+🎯 Pressing Enter adds an item as well
 
+🎨 Stylish bordered list with hover effect
+
+## 📦 Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/sikehish/gdsc-dom-demo.git
+Navigate into the project directory:
+
+bash
+Copy
+Edit
+cd gdsc-dom-demo
+Run with a local development server:
+
+Option 1: VS Code Live Server
+Right-click index.html → Click Open with Live Server.
+
+Option 2: Python HTTP Server
+bash
+Copy
+Edit
+# For Python 3
+python -m http.server
+Option 3: Node.js HTTP Server
+bash
+Copy
+Edit
+npm install -g http-server
+http-server
+Open your browser at http://localhost:8000 (or the port shown in terminal).
+
+## 📁 Project Structure
+bash
+Copy
+Edit
+gdsc-dom-demo/
+├── index.html      # Main webpage structure
+├── script.js       # JavaScript DOM logic
+└── README.md       # Project documentation
+
+
+## 🎯 How to Use
+Type an item in the input box and press the ➕ button or hit Enter.
+
+Press on 🫣 to hide/show the list (with 2s delay).
+
+Click on any item to remove it from the list.
+
+Check the digital clock at the top for real-time time.
+
+✍️ Author
+M ARSHAD
 
