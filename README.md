@@ -47,19 +47,6 @@ Run with a local development server:
 Option 1: VS Code Live Server
 Right-click index.html → Click Open with Live Server.
 
-Option 2: Python HTTP Server
-bash
-Copy
-Edit
-# For Python 3
-python -m http.server
-Option 3: Node.js HTTP Server
-bash
-Copy
-Edit
-npm install -g http-server
-http-server
-Open your browser at http://localhost:8000 (or the port shown in terminal).
 
 ## 📁 Project Structure
 bash
